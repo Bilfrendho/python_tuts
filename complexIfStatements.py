@@ -11,5 +11,8 @@ petName=False
 if pet=="moose".upper() or pet=="beaver".upper():
     petName=True
 if countryCanada and petName:
+    #
     print("I love Canadian pets ")
+    #men what is happening
+
 
