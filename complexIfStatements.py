@@ -31,7 +31,6 @@
 country=input("Which Country do you belong to?\n ").capitalize()
 orderTotal=float(input("What is your current order Total?\n "))
 Canada=False
-neworderTotal=0
 if country=="Canada":
     Canada=True
     province=input("Which province do you belong to?\n (Please Enter Province in one word) ").capitalize()
