@@ -47,7 +47,8 @@ if country=="Canada":
         print("You have been taxed General Sales Tax \non your order total and your new order total is ${0:f}".format(neworderTotal))
         #print("Your tax is ${0:.4f}".format(neworderTotal))
         #This was good Bill. I have been wondering how this code is working
-    elif province == "Ontario" or province == "New"+" Brunswick".capitalize() or province == "Nova"+" Scotia".capitalize():
+    elif province == "Ontario" or province == \
+        "New"+" brunswick".capitalize() or province == "Nova"+" scotia".capitalize():
         #HST refers to Harmonized sales tax
         HST=0.13/100
         neworderTotal=(HST+100)/100*orderTotal
