@@ -11,4 +11,5 @@ for steps in range(1,nsides+1):
         turtle.color("blue")
         turtle.forward(-50)
         turtle.right(n)
+        print(steps2)
       
