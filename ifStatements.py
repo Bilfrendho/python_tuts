@@ -29,7 +29,7 @@
 #print("Thank you for shipping with us. Have a nice day!")
   
 #method 2
-amount=float(input("kindly input the shipping amount\n"))
+amount=int(input("kindly input the shipping amount\n"))
 if amount<50:
     newAmount=amount+10
     print("Your total amount for shipping is $%d "%newAmount)

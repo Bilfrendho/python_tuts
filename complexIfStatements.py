@@ -1,5 +1,5 @@
 country=input("Which country are you from?\n").capitalize()
-orderTotal=float(input("What is your order total for all your goods?\n"))
+orderTotal=int(input("What is your order total for all your goods?\n"))
 if country=="Canada":
     province=input("Which Canadian province do you come from?\n ").capitalize();
     

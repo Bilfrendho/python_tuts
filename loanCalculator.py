@@ -8,10 +8,10 @@ L=input("Enter the Loan Amount ")
 i=input("Enter the Interest Rate ")
 #numberOfPayments=input("Enter the Number of Payments ")
 n=input("Enter the Number of Payments ")
-L=float(L)
-i=float(i)
+L=int(L)
+i=int(i)
 i=i/100
-n=float(n)
+n=int(n)
 M=0
 M=(L*(i*(i+1)*n))/((i+1)*(n-1))
 print("Hello, your loan monthly payment is {0:f} ".format(M))
